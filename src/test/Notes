@@ -1,0 +1,25 @@
+1. why don't we use out local/personal laptops/computers to host websites and testing frameworks.
+
+1) I have to keep my laptop up and running all the time.
+2) Personal laptops/computers don't have enough RAM CPU power to entertain huge requests
+3) Internet connections are not that good
+4) Security is also a very  big problem when it comes to host services on local machine for these reasons
+5) Everyone can easily access them through their personal laptops
+==========================================================================================
+SDLC:
+1) BAs discuss the requirements with clients and develop the SRS(Software requirement specification) documents
+2) this document is then shared with Architects and QA team leads.
+3) Architects design the software requirement document (SRD) and QA leads start planning the testing.
+4) Once the SRDs are ready the developers start working (coding) and start building the application
+5)This is where the deployment life cycle starts
+       1) Once the application is developed on local/personal computersthey ask other developers or architects to review their
+         code for any type of mistake and after they push the code to
+         the git or any other version control system once it is done
+         they request the dev ops or IT teams are deployed to development server(DEV) so that they are sure
+          application still works outside their laptops.
+          2) QA will request Dev ops IT team to deploy it to QA server.
+          3) If everything looks good all the test cases are passed QAs will deploy it to staging server
+          staging server they are replica of production servers so that we can test the application in as
+          possible and same environment as production.
+          4)if test cases fail QA will report them to Developer and whole cycle starts again
+
